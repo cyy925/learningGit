@@ -4,4 +4,11 @@ git stash save 'add file2'
 git stash pop
 i am uat
 i am dev
-i am line7
+
+to rebase feature-a -> uat:
+git checkout uat
+git pull  拿到最新的uat,local uat up to date
+git checkout feature-a
+git rebase uat （在feature a rebase）(uat的东西在前面，feature-a在后面，与时间顺序无关)
+git checkout uat
+git merge feature a
