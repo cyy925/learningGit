@@ -4,3 +4,4 @@ git stash save 'add file2'
 git stash pop
 i am uat
 i am dev
+i am line7
