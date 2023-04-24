@@ -1,1 +1,2 @@
 git reset head + filename
+git stash
